@@ -1,7 +1,7 @@
-/** @type {import('next').NextConfig} */
+{import('next').NextConfig} 
 const nextConfig = {
-    basePath: '/faq-accordion-main',
-    assetPrefix: '/faq-accordion-main/',
+    /* basePath: '/faq-accordion-main',
+    assetPrefix: '/faq-accordion-main/', */
 };
 
 
