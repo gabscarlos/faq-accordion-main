@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --light-pink: hsl(275, 100%, 97%);
+  --dark-purple: hsl(292, 42%, 14%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,13 +19,15 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--dark-purple);
+  background-color: var(--light-pink);
+  background-image: url('/assets/background-pattern-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  background-attachment: fixed;
+
+
 }
 
 @layer utilities {
