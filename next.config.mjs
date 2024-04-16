@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    basePath: '/faq-accordion-main',
+    assetPrefix: '/faq-accordion-main/',
+};
+
+
 
 export default nextConfig;
