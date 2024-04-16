@@ -9,11 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-<<<<<<< HEAD
     "deploy": "gh-pages -d .next"
-=======
-    "deploy": "gh-pages -d .next",
->>>>>>> 74113daae7f4920f78f6c71eb02cef92521a2d9b
   },
   "dependencies": {
     "next": "14.2.1",
