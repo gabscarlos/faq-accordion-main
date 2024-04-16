@@ -23,7 +23,7 @@ export default function Home() {
   ]
 
   return (
-    <main className="w-1/2 m-auto mt-40 items-center justify-center bg-white rounded-lg">
+    <main className="w-1/2 m-auto mt-40 items-center justify-center bg-white rounded-lg shadow-xl">
       <div className="flex items-center p-7">
         <Image src="/assets/icon-star.svg" alt="logo" width={40} height={40} />
         <h1 className="mx-5 text-6xl text-center font-bold">FAQs</h1>
