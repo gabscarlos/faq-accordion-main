@@ -1,5 +1,5 @@
 {
-  "homepage": "https://gabscarlos.github.io/faq-accordion-main/",
+  "homepage": "https://gabscarlos.github.io/faq-accordion-main",
   "name": "faq-accordion-main",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "next": "14.2.1",
